@@ -1,0 +1,29 @@
+body{
+    background-color: #0f0f0f;
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video{
+    margin: 10px;
+}
+
+.audio{
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.text{
+    color: #ffffff;
+    text-decoration: underline
+}
+
+.text-2{
+    color: #ffffff;
+    size: 100px;
+}
