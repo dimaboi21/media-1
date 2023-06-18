@@ -1,5 +1,12 @@
-body{
-    background-color: #0f0f0f;
+body {
+  background-color: #0f0f0f;
+}
+
+.continer {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .media {
@@ -8,34 +15,22 @@ body{
   align-items: center;
 }
 
-
-
-.audio{
-    background-color: bisque;
-    padding: 5px;
-    border-radius: 50px;
+.video{
+    margin: 10px;
 }
 
-.text{
-    color: #ffffff;
-    text-decoration: underline
+.audio {
+  background-color: bisque;
+  padding: 5px;
+  border-radius: 50px;
 }
 
-.text-2{
-    color: #ffffff;
-    size: 100px;
+.text {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
-    .video{
-        margin: 10px;
-        width: 520px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .video{
-        margin: 10px;
-        width: 420px;
-    }
+.text-2 {
+  color: #ffffff;
+  size: 100px;
 }
