@@ -8,9 +8,7 @@ body{
   align-items: center;
 }
 
-.video{
-    margin: 10px;
-}
+
 
 .audio{
     background-color: bisque;
@@ -26,4 +24,18 @@ body{
 .text-2{
     color: #ffffff;
     size: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .video{
+        margin: 10px;
+        width: 520px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .video{
+        margin: 10px;
+        width: 420px;
+    }
 }
